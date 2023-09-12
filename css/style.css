@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+	--menu-hover:#FE8F01;
+	--color-general:#929292;
+	--color-titulos:#282d33;
+	--color-iconos: #e0e0e0;
+	--color-checks:#53c3c9;
+	--color-fondo:#f7f7f7;
+}
+body{
+	font-size: 14px;
+	font-family: 'Catamaran', sans-serif!important; 
+}
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+}
+
+
+.general{
+	color:var(--color-general);
+	font-size: 13px;
+	padding-bottom: 20px;
+}
+.tittle{
+	font-weight: 700;
+	color: var(--color-títulos);
+	padding: 10px 0px;
+}
+
+#hero{
+	background-image: url("../img/bg-services-title.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+
+}
+
+.la-check{
+	font-size: 30px!important;
+	color: var(--color-checks)!important;
+	padding-bottom: 30px;
+}
+
+#services{
+	text-align: center;
+	padding: 5% 5%;
+	margin: 0% 5%;
+}
+
+#services h2{
+	font-size: 15px!important;
+	text-transform: capitalize;
+}
+
+
+#services i{
+	font-size: 150px;
+	color: var(--color-iconos);
+}
+#services p{
+	color:var(--color-general);
+	font-size: 13px;
+}
+#hero h1{
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 70px;
+	font-weight: 600;
+}
+
+.overlay{
+	padding: 8% 0;
+}
+
+
+#pages{
+	background-color:var(--color-fondo);
+	padding-top: 85px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+#pages img{
+	width: 100%;
+	padding: 20px 0px;
+	margin: 0px auto;
+}
+
+.pages h2{
+	font-size: 15px!important;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+	
+footer{
+	background-color:var(--color-titulos);
+	color: #bababa;
+	padding: 2% 0;
+	text-align: center;
+}
+
+
